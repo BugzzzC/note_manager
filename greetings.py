@@ -14,3 +14,6 @@ print("Описание заметки:", content)
 print("Статус заметки:", status)
 print("Дата создания заметки:", created_date)
 print("Дата истечения заметки:", issue_date)
+git remote add origin https://github.com/ваше_имя_пользователя/note_manager.git
+git branch -M main
+git push -u origin main
