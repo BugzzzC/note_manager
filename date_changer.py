@@ -1,15 +1,20 @@
-created_date = "19 марта 2024"
-issue_date = "19.03.24"
+username = input("Введите имя пользователя: ")
+title = input("Введите заголовок заметки: ")
+content = input("Введите описание заметки: ")
+status = input("Введите статус заметки (например, 'Активна', 'Выполнена'): ")
+created_date = input("Введите дату создания заметки в формате 'день-месяц-год': ")
+issue_date = input("Введите дату истечения заметки в формате 'день-месяц-год': ")
 
 temp_created_date = created_date
 temp_issue_date = issue_date
 
-print(created_date)
-print(issue_date)
-
-print(temp_created_date[0:9:1])
-print(temp_issue_date[0:5:1])
-
+print("\nВы ввели следующие данные:")
+print("Имя пользователя:", username)
+print("Заголовок заметки:", title)
+print("Описание заметки:", content)
+print("Статус заметки:", status)
+print("Дата создания заметки:", temp_created_date[0:5:1])
+print("Дата истечения заметки:", temp_issue_date[0:5:1])
 
 
 
