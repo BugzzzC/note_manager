@@ -13,7 +13,7 @@ note["Дата истечения заметки"] = issue_date[0:5:1]
 note["Заголовки заметки"] = []
 for i in range(3):
     title = input(f"Введите заголовок заметки {i + 1}: ")
-    note["titles"].append(title)
+    note["Заголовки заметки"].append(title)
 
 print("\nСобранная информация о заметке:")
 for key, value in note.items():
